@@ -8,11 +8,3 @@ make
 
 
 ssh edu-acad2021-212@polus.cs.msu.ru
-
-
-
-
-all:
-	rm a.out*
-	nvcc -O3 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_60,code=sm_60 -lm -std=c++11 main.cu
-	./a.out

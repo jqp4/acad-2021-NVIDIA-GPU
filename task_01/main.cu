@@ -55,24 +55,58 @@ int main(int argc, char** argv) {
   int blockSize = 1024;
   // Number of thread blocks in grid
   int gridSize = (n - 1) / blockSize + 1;
+  // create gpu timer
+  cudaEvent_t start_gpu, stop_gpu;
+  cudaEventCreate(&start_gpu);
+  cudaEventCreate(&stop_gpu);
+  cudaEventRecord(start_gpu);
   // Execute the kernel
   sum_vectors<<<gridSize, blockSize>>>(d_a, d_b, d_c, n);
-  // --------------------------
+  // get gpu time
   cudaDeviceSynchronize();
+  cudaEventRecord(stop_gpu);
+  float time_gpu = 0;
+  cudaEventElapsedTime(&time_gpu, start_gpu, stop_gpu);
   // Copy array back to host
   cudaMemcpy(h_c, d_c, bytes, cudaMemcpyDeviceToHost);
 
+  /*// create cpu timer
+  auto start_cpu = high_resolution_clock::now();
+  // check result
   bool res = check(h_a, h_b, h_c, n);
+  // get cpu time
+  auto stop_cpu = high_resolution_clock::now();
+  auto time_cpu = stop_cpu - start_cpu;
+  time_cpu = time_cpu.count() / 1000;*/
+
+  // create cpu timer
+  cudaEvent_t start_cpu, stop_cpu;
+  cudaEventCreate(&start_cpu);
+  cudaEventCreate(&stop_cpu);
+  cudaEventRecord(start_cpu);
+  // check result
+  bool res = check(h_a, h_b, h_c, n);
+  // get cpu time
+  cudaDeviceSynchronize();
+  cudaEventRecord(stop_cpu);
+  float time_cpu = 0;
+  cudaEventElapsedTime(&time_cpu, start_cpu, stop_cpu);
+
 
   if (res) {
     printf("correct\n");
   } else {
     printf("incorrect\n");
   }
+
+  printf("CPU time: %10f ms\n", time_cpu);
+  printf("GPU time: %10f ms\n", time_gpu);
+
   // Release device memory
   cudaFree(d_a);
   cudaFree(d_b);
   cudaFree(d_c);
+  // Release host memory
   free(h_a);
   free(h_b);
   free(h_c);
