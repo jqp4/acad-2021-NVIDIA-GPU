@@ -1,1 +1,1 @@
-# acad-2021-NVIDIA-GPU
+# acad 2021 NVIDIA GPU
