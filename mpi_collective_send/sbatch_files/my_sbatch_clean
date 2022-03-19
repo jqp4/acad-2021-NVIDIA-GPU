@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#srun --resv-ports "$@"
+#exit $?
+
+[ x"$TMPDIR" == x"" ] && TMPDIR=/tmp
+HOSTFILE=${TMPDIR}/hostfile.${SLURM_JOB_ID}
+HOSTFILEMON=${TMPDIR}/hostfile.mon.${SLURM_JOB_ID}
+srun hostname -s > ./SRUN.txt
+cat SRUN.txt |sort|uniq -c|awk '{print $2" slots="$1}' > $HOSTFILE || { rm -f $HOSTFILE; exit 255; }
+cat SRUN.txt |sort|uniq -c|awk '{print $2" slots=1"}' > $HOSTFILEMON || { rm -f $HOSTFILEMON; exit 255; }
+#awk 'BEGIN { ORS=","} {print $1}' $HOSTFILE >> ./my_stream_job_info.txt
+mpirun --hostfile $HOSTFILE $HOME/_scratch/research/mpi_collective/task_affinity/affinity_task.sh "$@"
+rc=$?
+rm -f $HOSTFILE
+rm -f $HOSTFILEMON
+
+exit $rc

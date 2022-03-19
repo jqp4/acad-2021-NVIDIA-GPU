@@ -1,1 +1,1 @@
-# acad 2021 NVIDIA GPU
+# CS MSU course work 2021/22
