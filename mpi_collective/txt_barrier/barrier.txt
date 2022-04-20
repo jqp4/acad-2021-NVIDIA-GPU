@@ -11,3 +11,11 @@ Node: n48632
 while attempting to start process rank 0.
 --------------------------------------------------------------------------
 barrier,100000,4.406461e+02,2022-04-20,06:21:28,06:28:49
+1,14
+taskset: failed to execute ./cycle: No such file or directory
+barrier,100000,4.694751e+02,2022-04-20,06:30:49,06:38:39
+1,14
+1,14
+taskset: failed to execute ./cycle: No such file or directory
+barrier,100000,2.414068e-01,2022-04-20,14:40:45,14:40:45
+barrier,100000,4.397880e+02,2022-04-20,14:40:57,14:48:17

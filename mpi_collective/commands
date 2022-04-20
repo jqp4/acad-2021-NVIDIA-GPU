@@ -1,6 +1,10 @@
 ssh -i ~/.ssh/id_rsa skryabinglebedu_2138@lomonosov2.parallel.ru
 
-scp -r ~/Desktop/mpi_collective skryabinglebedu_2138@lomonosov2.parallel.ru:~/_scratch/research/
+scp -r ~/Projects/coursework/mpi_collective skryabinglebedu_2138@lomonosov2.parallel.ru:~/_scratch/research/
+
+scp -r ~/Projects/coursework/mpi_collective/print_all_txt.sh skryabinglebedu_2138@lomonosov2.parallel.ru:~/_scratch/research/mpi_collective
+
+
 
 module load slurm
 module load openmpi

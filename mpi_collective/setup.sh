@@ -2,10 +2,12 @@
 # module load slurm
 # module load openmpi
 
-# Компиляция программ сделана заранее
+# Компиляция программ сделана отдельно
+# mpicxx cycle.cpp -o cycle
 # mpicxx barrier.cpp -o barrier
 # mpicxx alltoall.cpp -o alltoall
 
+chmod +x cycle
 chmod +x barrier
 chmod +x alltoall
 
