@@ -6,8 +6,7 @@ scp -r ~/Projects/coursework/mpi_collective/print_all_txt.sh skryabinglebedu_213
 
 
 
-module load slurm
-module load openmpi
+module load slurm; module load openmpi
 
 
 mpicxx barrier.cpp -o barrier

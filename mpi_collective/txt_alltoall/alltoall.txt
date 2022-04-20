@@ -1,24 +1,12 @@
 1,14
-alltoall,100000,256,4.676050e+02,2022-04-20,05:07:52,05:15:40
 1,14
---------------------------------------------------------------------------
-mpirun was unable to launch the specified application as it could not access
-or execute an executable:
-
-Executable: /home/skryabinglebedu_2138/_scratch/research/mpi_collective/noise_affinity/simple_noise_x1_affinity_same_core.sh
-Node: n48632
-
-while attempting to start process rank 0.
---------------------------------------------------------------------------
-alltoall,100000,256,4.269220e+02,2022-04-20,06:14:06,06:21:13
+alltoall,100000,256,4.607070e+02,2022-04-20,18:54:30,19:02:11
+slurmstepd-n48632: *** JOB 1394535 ON n48632 CANCELLED AT 2022-04-20T19:17:35 DUE TO TIME LIMIT ***
+mpirun: Forwarding signal 18 to job
 1,14
-taskset: failed to execute ./cycle: No such file or directory
+alltoall,100000,256,3.005681e+00,2022-04-20,19:53:41,19:53:44
 1,14
-alltoall,100000,256,4.456160e+02,2022-04-20,06:38:54,06:46:20
-taskset: failed to execute ./cycle: No such file or directory
-alltoall,100000,256,4.585250e+02,2022-04-20,06:46:35,06:54:13
+alltoall,100000,256,4.329120e+02,2022-04-20,20:57:59,21:05:12
 1,14
-1,14
-taskset: failed to execute ./cycle: No such file or directory
-alltoall,100000,256,1.289933e+00,2022-04-20,14:48:32,14:48:34
-alltoall,100000,256,1.285902e+00,2022-04-20,14:48:48,14:48:49
+slurmstepd-n48632: *** JOB 1394579 ON n48632 CANCELLED AT 2022-04-20T21:44:25 DUE TO TIME LIMIT ***
+mpirun: Forwarding signal 18 to job
