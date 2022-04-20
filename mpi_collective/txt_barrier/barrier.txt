@@ -1,0 +1,13 @@
+1,14
+barrier,100000,4.539131e+02,2022-04-20,05:00:03,05:07:37
+1,14
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: /home/skryabinglebedu_2138/_scratch/research/mpi_collective/noise_affinity/simple_noise_x1_affinity_same_core.sh
+Node: n48632
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+barrier,100000,4.406461e+02,2022-04-20,06:21:28,06:28:49

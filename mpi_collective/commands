@@ -1,0 +1,15 @@
+ssh -i ~/.ssh/id_rsa skryabinglebedu_2138@lomonosov2.parallel.ru
+
+scp -r ~/Desktop/mpi_collective skryabinglebedu_2138@lomonosov2.parallel.ru:~/_scratch/research/
+
+module load slurm
+module load openmpi
+
+
+mpicxx barrier.cpp -o barrier
+chmod +x launch_script_barrier.sh
+nohup ./launch_script_barrier.sh 1 14 1 1s 256 100000 10000 &
+
+
+squeue --user skryabinglebedu_2138
+
