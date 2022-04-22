@@ -6,7 +6,12 @@ scp -r ~/Projects/coursework/mpi_collective/print_all_txt.sh skryabinglebedu_213
 
 
 
-module load slurm; module load openmpi
+module load slurm
+module load openmpi
+cd _scratch/research/mpi_collective/
+sh setup.sh
+
+
 
 
 mpicxx barrier.cpp -o barrier
@@ -15,4 +20,6 @@ nohup ./launch_script_barrier.sh 1 14 1 1s 256 100000 10000 &
 
 
 squeue --user skryabinglebedu_2138
+
+
 
