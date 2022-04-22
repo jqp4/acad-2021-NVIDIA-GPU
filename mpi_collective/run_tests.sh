@@ -12,5 +12,9 @@ squeue --user skryabinglebedu_2138
 
 
 
-nohup ./launch_script_barrier.sh    2 14 2 1m 75500 7550 &
-nohup ./launch_script_barrier_x1.sh 2 14 2 1m 75500 7550 &
+nohup ./launch_script_barrier.sh    2 14 2 30s 75500 7550 &
+nohup ./launch_script_barrier_x1.sh 2 14 2 30s 75500 7550 &
+
+nohup ./launch_script_alltoall.sh    2 14 2 30s 256 75500 7550 &
+nohup ./launch_script_alltoall_x1.sh 2 14 2 30s 256 75500 7550 &
+

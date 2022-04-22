@@ -95,3 +95,23 @@ slurmstepd-n50001: *** JOB 1394931 ON n50001 CANCELLED AT 2022-04-21T20:40:27 **
 barrier,75500,5.173182e+02,2022-04-21,20:43:34,20:52:12
 barrier,75500,8.214560e+02,2022-04-21,20:52:31,21:06:13
 barrier,75500,4.224638e+02,2022-04-21,21:06:33,21:13:36
+2,14
+2,14
+2,14
+2,14
+barrier,75500,5.110030e+02,2022-04-22,07:32:30,07:41:02
+barrier,75500,8.695292e+02,2022-04-22,07:41:21,07:55:51
+barrier,75500,4.966972e+02,2022-04-22,07:56:10,08:04:27
+2,14
+2,14
+barrier,256,3.630000e-07,2022-04-22,08:53:05,08:53:05
+2,14
+2,14
+slurmstepd-n50001: *** JOB 1395034 ON n50001 CANCELLED AT 2022-04-22T08:53:21 ***
+srun: got SIGCONT
+slurmstepd-n50001: *** JOB 1395035 ON n50001 CANCELLED AT 2022-04-22T08:53:34 ***
+srun: forcing job termination
+srun: error: Task launch for 1395035.0 failed on node n50002: Job credential revoked
+srun: error: Application launch failed: Job credential revoked
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
