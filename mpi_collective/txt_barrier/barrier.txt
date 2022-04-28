@@ -1,32 +1,55 @@
-1,14
-1,14
-barrier,100000,4.347500e+02,2022-04-20,19:19:09,19:26:24
-1,14
-barrier,100000,2.601351e+00,2022-04-20,19:51:59,19:52:02
-1,14
-barrier,100000,4.310270e+02,2022-04-20,21:06:51,21:14:02
-1,14
-barrier,100000,8.295510e+02,2022-04-20,21:44:40,21:58:30
-2,14
-2,14
-barrier,100000,6.893832e+02,2022-04-21,16:46:49,16:58:19
-2,14
-2,14
-slurmstepd-n50001: *** JOB 1394860 ON n50001 CANCELLED AT 2022-04-21T17:13:27 DUE TO TIME LIMIT ***
+1,28
+1,28
+slurmstepd-n48632: *** JOB 1400413 ON n48632 CANCELLED AT 2022-04-27T22:05:21 DUE TO TIME LIMIT ***
 mpirun: Forwarding signal 18 to job
-barrier,100000,4.842972e+02,2022-04-21,17:14:03,17:22:08
-barrier,100000,8.413594e+02,2022-04-21,17:22:29,17:36:31
-2,14
-2,14
-2,14
-2,14
-slurmstepd-n50001: *** JOB 1394928 ON n50001 CANCELLED AT 2022-04-21T20:20:24 DUE TO TIME LIMIT ***
+slurmstepd-n48632: *** JOB 1400414 ON n48632 CANCELLED AT 2022-04-27T22:20:59 DUE TO TIME LIMIT ***
 mpirun: Forwarding signal 18 to job
+28,1
+28,1
+1,28
+1,28
+slurmstepd-n48632: *** JOB 1400426 ON n48632 CANCELLED AT 2022-04-27T22:45:46 DUE TO TIME LIMIT ***
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 18 to job
+slurmstepd-n48632: *** JOB 1400427 ON n48632 CANCELLED AT 2022-04-27T22:53:29 ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+mpirun: abort is already in progress...hit ctrl-c again to forcibly terminate
+
+1,28
+1,28
+barrier,8000,3.595080e+02,2022-04-27,22:55:37,23:01:37
+barrier,8000,3.297831e+02,2022-04-27,23:02:14,23:07:44
+14,2
+14,2
+barrier,8000,5.631442e-02,2022-04-27,23:25:54,23:25:54
+barrier,8000,5.693811e-02,2022-04-27,23:26:52,23:26:52
 --------------------------------------------------------------------------
 ORTE has lost communication with a remote daemon.
 
-  HNP daemon   : [[64707,0],0] on node n50001
-  Remote daemon: [[64707,0],1] on node n50002
+  HNP daemon   : [[43105,0],0] on node n50001
+  Remote daemon: [[43105,0],3] on node n50004
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+14,2
+14,2
+barrier,75500,5.040676e-01,2022-04-27,23:31:33,23:31:34
+barrier,75500,5.080952e-01,2022-04-27,23:32:09,23:32:10
+14,14
+14,14
+slurmstepd-n48616: *** JOB 1400510 ON n48616 CANCELLED AT 2022-04-27T23:50:29 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[63076,0],0] on node n48616
+  Remote daemon: [[63076,0],6] on node n50008
 
 This is usually due to either a failure of the TCP network
 connection to the node, or possibly an internal failure of
@@ -35,83 +58,138 @@ therefore will terminate the job.
 --------------------------------------------------------------------------
 mpirun: abort is already in progress...hit ctrl-c again to forcibly terminate
 
-[n50001:20131] *** Process received signal ***
-[n50001:20131] Signal: Segmentation fault (11)
-[n50001:20131] Signal code: Address not mapped (1)
-[n50001:20131] Failing at address: 0x30
-[n50001:20131] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7ffff68605d0]
-[n50001:20131] [ 1] /opt/mpi/openmpi-4.0.1-icc/lib/openmpi/mca_pmix_pmix3x.so(OPAL_MCA_PMIX3X_PMIx_Finalize+0x604)[0x7ffff1882a24]
-[n50001:20131] [ 2] /opt/mpi/openmpi-4.0.1-icc/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_client_finalize+0x366)[0x7ffff184aad6]
-[n50001:20131] [ 3] /opt/mpi/openmpi-4.0.1-icc/lib/openmpi/mca_ess_hnp.so(+0x482d)[0x7ffff2b6f82d]
-[n50001:20131] [ 4] /opt/mpi/openmpi-4.0.1-icc/lib/libopen-pal.so.40(+0x8c3e0)[0x7ffff763b3e0]
-[n50001:20131] [ 5] /opt/mpi/openmpi-4.0.1-icc/lib/libopen-pal.so.40(opal_libevent2022_event_base_loop+0x7d0)[0x7ffff763acb0]
-[n50001:20131] [ 6] mpirun[0x402ad1]
-[n50001:20131] [ 7] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7ffff64a63d5]
-[n50001:20131] [ 8] mpirun[0x402769]
-[n50001:20131] *** End of error message ***
-mlx5: n50001.10p.parallel.ru: got completion with error:
-00000000 00000000 00000000 00000000
-00000000 00000000 00000000 00000000
-00000000 00000000 00000000 00000000
-00000000 00008813 081aa351 2fa4bdd1
+mpirun: Forwarding signal 18 to job
+[n48616:17927] *** Process received signal ***
+[n48616:17927] Signal: Segmentation fault (11)
+[n48616:17927] Signal code: Address not mapped (1)
+[n48616:17927] Failing at address: 0x30
+[n48616:17927] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7ffff68605d0]
+[n48616:17927] [ 1] /opt/mpi/openmpi-4.0.1-icc/lib/openmpi/mca_pmix_pmix3x.so(OPAL_MCA_PMIX3X_PMIx_Finalize+0x604)[0x7ffff1882a24]
+[n48616:17927] [ 2] /opt/mpi/openmpi-4.0.1-icc/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_client_finalize+0x366)[0x7ffff184aad6]
+[n48616:17927] [ 3] /opt/mpi/openmpi-4.0.1-icc/lib/openmpi/mca_ess_hnp.so(+0x482d)[0x7ffff2b6f82d]
+[n48616:17927] [ 4] /opt/mpi/openmpi-4.0.1-icc/lib/libopen-pal.so.40(+0x8c3e0)[0x7ffff763b3e0]
+[n48616:17927] [ 5] /opt/mpi/openmpi-4.0.1-icc/lib/libopen-pal.so.40(opal_libevent2022_event_base_loop+0x7d0)[0x7ffff763acb0]
+[n48616:17927] [ 6] mpirun[0x402ad1]
+[n48616:17927] [ 7] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7ffff64a63d5]
+[n48616:17927] [ 8] mpirun[0x402769]
+[n48616:17927] *** End of error message ***
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 18 to job
+slurmstepd-n48620: *** JOB 1400511 ON n48620 CANCELLED AT 2022-04-27T23:51:26 ***
 --------------------------------------------------------------------------
 ORTE has lost communication with a remote daemon.
 
-  HNP daemon   : [[57824,0],0] on node n50001
-  Remote daemon: [[57824,0],1] on node n50002
+  HNP daemon   : [[6403,0],0] on node n48620
+  Remote daemon: [[6403,0],8] on node n48629
 
 This is usually due to either a failure of the TCP network
 connection to the node, or possibly an internal failure of
 the daemon itself. We cannot recover from this failure, and
 therefore will terminate the job.
 --------------------------------------------------------------------------
-slurmstepd-n50001: *** JOB 1394929 ON n50001 CANCELLED AT 2022-04-21T20:35:31 DUE TO TIME LIMIT ***
+mpirun: abort is already in progress...hit ctrl-c again to forcibly terminate
+
+[n48620:23392] *** Process received signal ***
+[n48620:23392] Signal: Segmentation fault (11)
+[n48620:23392] Signal code: Address not mapped (1)
+[n48620:23392] Failing at address: 0x30
+[n48620:23392] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7ffff68605d0]
+[n48620:23392] [ 1] /opt/mpi/openmpi-4.0.1-icc/lib/openmpi/mca_pmix_pmix3x.so(OPAL_MCA_PMIX3X_PMIx_Finalize+0x604)[0x7ffff1882a24]
+[n48620:23392] [ 2] /opt/mpi/openmpi-4.0.1-icc/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_client_finalize+0x366)[0x7ffff184aad6]
+[n48620:23392] [ 3] /opt/mpi/openmpi-4.0.1-icc/lib/openmpi/mca_ess_hnp.so(+0x482d)[0x7ffff2b6f82d]
+[n48620:23392] [ 4] /opt/mpi/openmpi-4.0.1-icc/lib/libopen-pal.so.40(+0x8c3e0)[0x7ffff763b3e0]
+[n48620:23392] [ 5] /opt/mpi/openmpi-4.0.1-icc/lib/libopen-pal.so.40(opal_libevent2022_event_base_loop+0x7d0)[0x7ffff763acb0]
+[n48620:23392] [ 6] mpirun[0x402ad1]
+[n48620:23392] [ 7] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7ffff64a63d5]
+[n48620:23392] [ 8] mpirun[0x402769]
+[n48620:23392] *** End of error message ***
+14,2
+14,2
+barrier,200000,1.514067e+00,2022-04-27,23:52:40,23:52:41
+barrier,200000,1.530362e+00,2022-04-27,23:53:16,23:53:18
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[64720,0],0] on node n48616
+  Remote daemon: [[64720,0],8] on node n50010
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+14,2
+14,2
+barrier,200000,1.591142e+00,2022-04-27,00:02:00,00:02:02
+barrier,200000,1.532515e+00,2022-04-27,00:02:31,00:02:33
+14,2
+14,2
+14,2
+barrier,200000,1.337498e+00,2022-04-27,00:21:03,00:21:05
+barrier,200000,1.345487e+00,2022-04-27,00:21:59,00:22:01
+14,28
+14,28
 mpirun: Forwarding signal 18 to job
-mlx5: n50001.10p.parallel.ru: got completion with error:
-00000000 00000000 00000000 00000000
-00000000 00000000 00000000 00000000
-00000000 00000000 00000000 00000000
-00000000 00008813 081aa3a2 2fa4bfd0
-[[57824,1],6][btl_openib_component.c:3674:handle_wc] from n50001 to: n50002 error polling LP CQ with status REMOTE ACCESS ERROR status number 10 for wr_id 7e3780 opcode 1  vendor error 136 qp_idx 0
-mlx5: n50001.10p.parallel.ru: got completion with error:
-00000000 00000000 00000000 00000000
-00000000 00000000 00000000 00000000
-00000000 00000000 00000000 00000000
-00000000 00008813 081aa353 2fa44ed0
-[[57824,1],7][btl_openib_component.c:3674:handle_wc] from n50001 to: n50002 error polling LP CQ with status REMOTE ACCESS ERROR status number 10 for wr_id 7e3980 opcode 1  vendor error 136 qp_idx 0
-mlx5: n50001.10p.parallel.ru: got completion with error:
-00000000 00000000 00000000 00000000
-00000000 00000000 00000000 00000000
-00000000 00000000 00000000 00000000
-00000000 00008813 081aa388 2fa4b0d1
-[[57824,1],13][btl_openib_component.c:3674:handle_wc] from n50001 to: n50002 error polling LP CQ with status REMOTE ACCESS ERROR status number 10 for wr_id 7e3780 opcode 1  vendor error 136 qp_idx 0
-[[57824,1],12][btl_openib_component.c:3674:handle_wc] from n50001 to: n50002 error polling LP CQ with status REMOTE ACCESS ERROR status number 10 for wr_id 7e3980 opcode 1  vendor error 136 qp_idx 0
-mpirun: Forwarding signal 18 to job
-slurmstepd-n50001: *** JOB 1394931 ON n50001 CANCELLED AT 2022-04-21T20:40:27 ***
-2,14
-2,14
-2,14
-2,14
-barrier,75500,5.173182e+02,2022-04-21,20:43:34,20:52:12
-barrier,75500,8.214560e+02,2022-04-21,20:52:31,21:06:13
-barrier,75500,4.224638e+02,2022-04-21,21:06:33,21:13:36
-2,14
-2,14
-2,14
-2,14
-barrier,75500,5.110030e+02,2022-04-22,07:32:30,07:41:02
-barrier,75500,8.695292e+02,2022-04-22,07:41:21,07:55:51
-barrier,75500,4.966972e+02,2022-04-22,07:56:10,08:04:27
-2,14
-2,14
-barrier,256,3.630000e-07,2022-04-22,08:53:05,08:53:05
-2,14
-2,14
-slurmstepd-n50001: *** JOB 1395034 ON n50001 CANCELLED AT 2022-04-22T08:53:21 ***
-srun: got SIGCONT
-slurmstepd-n50001: *** JOB 1395035 ON n50001 CANCELLED AT 2022-04-22T08:53:34 ***
-srun: forcing job termination
-srun: error: Task launch for 1395035.0 failed on node n50002: Job credential revoked
-srun: error: Application launch failed: Job credential revoked
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-srun: error: Timed out waiting for job step to complete
+slurmstepd-n50001: *** JOB 1400542 ON n50001 CANCELLED AT 2022-04-28T00:31:01 ***
+14,4
+14,4
+barrier,100000,7.880213e-01,2022-04-27,00:31:59,00:32:00
+barrier,100000,7.897318e-01,2022-04-27,00:32:49,00:32:50
+14,4
+1,1
+1,2
+1,3
+1,1
+1,4
+1,2
+1,3
+1,4
+2,1
+2,1
+2,2
+2,2
+2,3
+2,3
+2,4
+2,4
+4,1
+4,1
+4,2
+4,2
+4,3
+4,3
+4,4
+8,1
+4,4
+8,1
+8,3
+8,2
+8,2
+8,4
+8,3
+8,4
+16,1
+16,3
+16,2
+16,1
+16,2
+16,4
+16,4
+16,3
+barrier,100000,2.332449e-01,2022-04-27,01:14:30,01:14:30
+barrier,100000,4.359023e-01,2022-04-27,01:15:06,01:15:06
+barrier,100000,2.370329e-01,2022-04-27,01:16:09,01:16:10
+1,2
+1,3
+1,3
+1,4
+1,2
+1,3
+1,3
+1,3
+1,2
+1,3
+1,2
+1,3
+1,3
+1,10
