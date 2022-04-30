@@ -62,69 +62,20 @@ nohup ./launch_script_barrier_x1.sh 14 4 1 5s 100000 10000 &
 
 # перебор --------------
 
-# 01:14:30 - 01:16:10
+# 29 apr 01:14:30 - 01:16:10
 nohup ./launch_script_barrier.sh    1 1 1 5s 100000 10000 &
 nohup ./launch_script_barrier_x1.sh 1 1 1 5s 100000 10000 &
 nohup ./launch_script_barrier.sh    1 2 1 5s 100000 10000 &
 
-#
-nohup ./launch_script_barrier_x1.sh 1 2 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    1 3 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 1 3 1 5s 100000 10000 &
+# 30 apr 00:05:48
+nohup ./launch_script_barrier.sh    1 1 1 5s 100000 10000 "n50012" &
 
-
-nohup ./launch_script_barrier.sh    1 4 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 1 4 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    2 1 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier_x1.sh 2 1 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    2 2 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 2 2 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier.sh    2 3 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 2 3 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    2 4 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier_x1.sh 2 4 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    4 1 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 4 1 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier.sh    4 2 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 4 2 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    4 3 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier_x1.sh 4 3 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    4 4 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 4 4 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier.sh    8 1 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 8 1 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    8 2 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier_x1.sh 8 2 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    8 3 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 8 3 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier.sh    8 4 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 8 4 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    16 1 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier_x1.sh 16 1 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    16 2 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 16 2 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier.sh    16 3 1 5s 100000 10000 &
-nohup ./launch_script_barrier_x1.sh 16 3 1 5s 100000 10000 &
-nohup ./launch_script_barrier.sh    16 4 1 5s 100000 10000 &
-
-nohup ./launch_script_barrier_x1.sh 16 4 1 5s 100000 10000 &
-
-
-
+# 30 apr 
+nohup ./launch_script_barrier.sh    1 1 1 5s 100000 10000 "n50012" &
+nohup ./launch_script_barrier.sh    1 3 1 5s 100000 10000 "n50012" &
+nohup ./launch_script_barrier.sh    1 7 1 5s 100000 10000 "n50012" &
 
 squeue --user skryabinglebedu_2138
-
-
 
 
 

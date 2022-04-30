@@ -10,6 +10,9 @@
 #6 - number of iterations
 #7 - segmentation of iterations or batch size
 
+#8 - USE_NODES
+
+
 
 PATH_TO_DIR="${HOME}/_scratch/research/mpi_collective"
 PATH_TO_EXEC="${PATH_TO_DIR}"
@@ -24,7 +27,7 @@ USE_NODES="n50012,n50013,n50014,n50015"
 
 function LAUNCH_STREAM() {
 	# --nodelist="${USE_NODES}"
-	sbatch -p "test" -O --nodelist="${USE_NODES}" --output="${OUTPUT1}" --open-mode=append -C "nomonitoring" -N "$1" --ntasks-per-node="$2" ${PATH_TO_DIR}/sbatch_files/my_sbatch_clean ${PATH_TO_EXEC}/${EXEC_FILE} ${OUTPUT1} ${5} ${6} ${OUTPUT2} ${7} 
+	sbatch -p "test" -O --nodelist="$8" --output="${OUTPUT1}" --open-mode=append -C "nomonitoring" -N "$1" --ntasks-per-node="$2" ${PATH_TO_DIR}/sbatch_files/my_sbatch_clean ${PATH_TO_EXEC}/${EXEC_FILE} ${OUTPUT1} ${5} ${6} ${OUTPUT2} ${7} 
 }
 
 #COMPILE_STREAM "$@";

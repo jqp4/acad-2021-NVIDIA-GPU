@@ -17,6 +17,7 @@ chmod +x launch_script_alltoall.sh
 chmod +x launch_script_alltoall_x1.sh
 
 chmod +x ./dimmon_affinity/affinity_same.sh
+chmod +x ./sbatch_files/my_sbatch_clean
+chmod +x ./sbatch_files/my_sbatch_x1
 chmod +x ./noise_affinity/simple_noise_x1_affinity_same_core.sh
 chmod +x ./task_affinity/affinity_task.sh
-
