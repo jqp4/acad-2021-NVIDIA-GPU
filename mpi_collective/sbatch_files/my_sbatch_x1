@@ -10,7 +10,7 @@ srun hostname -s > ./SRUN.txt
 cat SRUN.txt |sort|uniq -c|awk '{print $2" slots="$1}' > $HOSTFILE || { rm -f $HOSTFILE; exit 255; }
 cat SRUN.txt |sort|uniq -c|awk '{print $2" slots=1"}' > $HOSTFILEMON || { rm -f $HOSTFILEMON; exit 255; }
 #awk 'BEGIN { ORS=","} {print $1}' $HOSTFILE >> ./my_stream_job_info.txt
-mpirun --hostfile $HOSTFILEMON $HOME/_scratch/research/mpi_collective/noise_affinity/simple_noise_x1_affinity_same_core.sh &
+mpirun --map-by :1 --hostfile $HOSTFILEMON $HOME/_scratch/research/mpi_collective/noise_affinity/simple_noise_x1_affinity_same_core.sh &
 mpirun --hostfile $HOSTFILE $HOME/_scratch/research/mpi_collective/task_affinity/affinity_task.sh "$@"
 rc=$?
 rm -f $HOSTFILE

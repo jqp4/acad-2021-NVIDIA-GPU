@@ -1,42 +1,979 @@
-1,1
-1,1
-barrier,77000,2.771600e-04,2022-04-30,06:56:49,06:56:49
-barrier,77000,2.609080e-04,2022-04-30,06:57:03,06:57:03
-1,1
-1,1
-barrier,77000,2.842040e-04,2022-04-30,06:57:18,06:57:18
-barrier,77000,2.850100e-04,2022-04-30,06:57:33,06:57:33
-1,3
-1,3
-barrier,77000,7.287304e-02,2022-04-30,06:57:50,06:57:50
-barrier,77000,5.796225e-02,2022-04-30,06:58:05,06:58:05
-1,3
-1,3
-barrier,77000,5.979353e-02,2022-04-30,06:58:22,06:58:22
-barrier,77000,6.825146e-02,2022-04-30,06:58:37,06:58:37
-1,7
-1,7
-barrier,77000,1.330516e-01,2022-04-30,06:59:01,06:59:01
-barrier,77000,1.159405e-01,2022-04-30,06:59:16,06:59:17
-1,7
-1,7
-barrier,77000,1.331515e-01,2022-04-30,06:59:41,06:59:41
-barrier,77000,1.173123e-01,2022-04-30,06:59:56,06:59:57
-1,14
-1,14
-barrier,77000,1.708160e-01,2022-04-30,07:00:20,07:00:20
-barrier,77000,1.860895e-01,2022-04-30,07:00:37,07:00:37
-1,14
-1,14
-barrier,77000,1.202971e+00,2022-04-30,07:00:54,07:00:55
-barrier,77000,4.227596e-01,2022-04-30,07:01:10,07:01:11
-2,1
-2,1
-barrier,77000,8.892080e-02,2022-04-30,07:01:38,07:01:38
-barrier,77000,8.818138e-02,2022-04-30,07:01:57,07:01:57
-2,1
-2,1
-barrier,77000,9.024467e-02,2022-04-30,07:02:17,07:02:17
-barrier,77000,9.112077e-02,2022-04-30,07:02:38,07:02:38
-2,3
-2,3
+2,14
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407511.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,100000,4.719171e-01,2022-05-12,03:58:42,03:58:42
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407512.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,100000,2.346452e-01,2022-05-12,04:02:26,04:02:26
+2,14
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407513.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,100000,6.610337e+00,2022-05-12,04:06:16,04:06:23
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407514.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,100000,5.743235e+00,2022-05-12,04:09:52,04:09:58
+4,14
+4,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407515.0 failed on node n50015: Socket timed out on send/recv operation
+srun: error: Task launch for 1407515.0 failed on node n50014: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,100000,4.717789e-01,2022-05-12,04:12:11,04:12:12
+2,14
+2,14
+2,14
+2,14
+barrier,30000,1.431186e-01,2022-05-12,04:18:10,04:18:10
+barrier,30000,1.438155e-01,2022-05-12,04:19:16,04:19:17
+barrier,30000,1.439688e-01,2022-05-12,04:19:50,04:19:50
+2,14
+2,14
+2,14
+2,14
+barrier,30000,1.066579e+00,2022-05-12,04:20:28,04:20:30
+barrier,30000,1.457901e+00,2022-05-12,04:20:56,04:20:58
+barrier,30000,5.559584e-01,2022-05-12,04:21:30,04:21:31
+4,14
+4,14
+4,14
+4,14
+barrier,30000,1.989030e-01,2022-05-12,04:23:09,04:23:09
+barrier,30000,1.981922e-01,2022-05-12,04:23:31,04:23:31
+barrier,30000,1.992168e-01,2022-05-12,04:24:20,04:24:21
+4,14
+4,14
+4,14
+4,14
+barrier,30000,1.475987e+02,2022-05-12,04:25:27,04:27:55
+barrier,30000,4.755882e+01,2022-05-12,04:28:33,04:29:21
+barrier,30000,5.048456e+01,2022-05-12,04:29:57,04:30:48
+8,14
+8,14
+8,14
+8,14
+barrier,30000,2.593290e-01,2022-05-12,04:36:12,04:36:12
+barrier,30000,2.606444e-01,2022-05-12,04:36:46,04:36:47
+barrier,30000,2.602396e-01,2022-05-12,04:37:20,04:37:20
+8,14
+8,14
+8,14
+8,14
+barrier,30000,4.972273e+02,2022-05-12,04:38:26,04:46:44
+barrier,30000,8.110242e+01,2022-05-12,04:47:30,04:48:52
+barrier,30000,1.444287e+02,2022-05-12,04:49:36,04:52:01
+2,14
+barrier,30000,1.436995e-01,2022-05-12,04:59:18,04:59:18
+2,14
+barrier,30000,1.444502e-01,2022-05-12,04:59:52,04:59:52
+2,14
+barrier,30000,1.443714e-01,2022-05-12,05:00:26,05:00:26
+2,14
+barrier,30000,1.438165e-01,2022-05-12,05:01:01,05:01:01
+2,14
+barrier,30000,2.903530e+01,2022-05-12,05:01:35,05:02:04
+2,14
+barrier,30000,7.194066e-01,2022-05-12,05:02:35,05:02:36
+2,14
+barrier,30000,5.885663e-01,2022-05-12,05:03:15,05:03:16
+2,14
+barrier,30000,1.355470e+00,2022-05-12,05:03:49,05:03:50
+4,14
+barrier,30000,1.989254e-01,2022-05-12,05:04:23,05:04:24
+4,14
+barrier,30000,1.992182e-01,2022-05-12,05:04:57,05:04:58
+4,14
+barrier,30000,1.982228e-01,2022-05-12,05:05:31,05:05:32
+4,14
+barrier,30000,1.983677e-01,2022-05-12,05:06:05,05:06:06
+4,14
+barrier,30000,7.199397e+01,2022-05-12,05:06:38,05:07:50
+4,14
+barrier,30000,3.489698e+00,2022-05-12,05:08:36,05:08:40
+4,14
+barrier,30000,9.828568e+01,2022-05-12,05:09:27,05:11:05
+4,14
+barrier,30000,3.395397e+00,2022-05-12,05:11:37,05:11:41
+8,14
+barrier,30000,2.597747e-01,2022-05-12,05:12:13,05:12:13
+8,14
+barrier,30000,2.582899e-01,2022-05-12,05:13:18,05:13:19
+8,14
+barrier,30000,2.598265e-01,2022-05-12,05:13:52,05:13:52
+8,14
+barrier,30000,2.609151e-01,2022-05-12,05:14:25,05:14:25
+8,14
+barrier,30000,3.600548e+01,2022-05-12,05:15:37,05:16:13
+8,14
+barrier,30000,4.694101e+02,2022-05-12,05:17:06,05:24:56
+8,14
+barrier,30000,5.088787e+02,2022-05-12,05:25:45,05:34:14
+8,14
+barrier,30000,4.998018e+02,2022-05-12,05:34:44,05:43:05
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407844.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.961917e+00,2022-05-12,15:57:11,15:57:14
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407845.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,30000,1.884112e-01,2022-05-12,16:00:47,16:00:47
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407847.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.040646e+00,2022-05-12,16:04:36,16:04:37
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407848.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.934530e+00,2022-05-12,16:08:27,16:08:29
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407851.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,2.772446e+00,2022-05-12,16:12:18,16:12:22
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407853.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,5.632262e-01,2022-05-12,16:16:11,16:16:12
+4,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407858.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Task launch for 1407858.0 failed on node n50014: Socket timed out on send/recv operation
+srun: error: Task launch for 1407858.0 failed on node n50015: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.164914e+01,2022-05-12,17:04:17,17:04:29
+2,14
+barrier,30000,7.296592e-01,2022-05-12,19:08:21,19:08:22
+2,14
+barrier,30000,5.621065e-01,2022-05-12,19:36:16,19:36:17
+2,14
+barrier,30000,5.509700e-01,2022-05-12,19:37:22,19:37:23
+2,14
+barrier,30000,1.736222e+01,2022-05-12,19:37:56,19:38:13
+4,14
+barrier,30000,2.127732e+01,2022-05-12,19:39:03,19:39:25
+4,14
+barrier,30000,1.415879e+02,2022-05-12,19:40:10,19:42:32
+4,14
+barrier,30000,5.583989e+01,2022-05-12,19:43:25,19:44:22
+8,14
+barrier,30000,5.066336e+02,2022-05-12,19:58:27,20:06:55
+8,14
+barrier,30000,4.685220e+02,2022-05-12,20:12:10,20:19:59
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408690.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.441225e-01,2022-05-13,00:57:50,00:57:50
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408692.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,30000,6.634069e-02,2022-05-13,01:01:21,01:01:21
+2,14
+barrier,30000,1.442442e-01,2022-05-13,01:02:12,01:02:12
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408700.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.438974e-01,2022-05-13,01:06:10,01:06:10
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408701.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,30000,6.572614e-02,2022-05-13,01:10:15,01:10:15
+2,14
+barrier,30000,1.441070e-01,2022-05-13,01:14:17,01:14:18
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408703.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,4.474519e-01,2022-05-13,01:16:44,01:16:44
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408704.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,6.170211e-01,2022-05-13,01:20:06,01:20:07
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408705.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.297540e+00,2022-05-13,01:23:24,01:23:25
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408706.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,30000,8.189606e-01,2022-05-13,01:27:19,01:27:20
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408707.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.117732e+00,2022-05-13,01:31:08,01:31:09
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408708.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,60000,2.848143e-01,2022-05-13,01:35:08,01:35:09
+2,14
+srun: got SIGCONT
+slurmstepd-n50012: *** JOB 1408709 ON n50012 CANCELLED AT 2022-05-14T01:38:16 ***
+srun: forcing job termination
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408709.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+8,14
+barrier,100000,8.468652e-01,2022-05-13,01:43:15,01:43:16
+8,14
+barrier,100000,8.449989e-01,2022-05-13,01:44:07,01:44:08
+8,14
+barrier,100000,8.418333e-01,2022-05-13,01:45:12,01:45:13
+8,14
+barrier,100000,8.477074e-01,2022-05-13,01:46:18,01:46:19
+8,14
+barrier,100000,8.447060e-01,2022-05-13,01:47:26,01:47:27
+8,14
+barrier,100000,8.494761e-01,2022-05-13,01:48:25,01:48:26
+8,14
+barrier,100000,6.001658e+02,2022-05-13,01:49:26,01:59:26
+8,14
+barrier,100000,6.001211e+02,2022-05-13,02:00:30,02:10:30
+8,14
+barrier,100000,5.815595e+02,2022-05-13,02:11:30,02:21:12
+8,14
+barrier,100000,6.002943e+02,2022-05-13,02:22:31,02:32:32
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408887.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.447225e-01,2022-05-15,05:02:33,05:02:33
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408888.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,30000,6.582504e-02,2022-05-15,05:06:16,05:06:16
+2,14
+barrier,30000,9.250597e-01,2022-05-15,05:08:15,05:08:16
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408890.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,30000,2.269122e-01,2022-05-15,05:11:32,05:11:33
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408895.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.443602e-01,2022-05-15,05:30:18,05:30:18
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408896.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.440151e-01,2022-05-15,05:33:23,05:33:23
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408897.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.446417e-01,2022-05-15,05:36:27,05:36:28
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408898.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,5.922372e-01,2022-05-15,05:39:31,05:39:32
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408899.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.035714e+00,2022-05-15,05:42:43,05:42:45
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408900.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,6.803635e-01,2022-05-15,05:45:49,05:45:50
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408983.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.443342e-01,2022-05-15,19:16:37,19:16:38
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408984.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,30000,6.754833e-02,2022-05-15,19:19:56,19:19:57
+2,14
+barrier,30000,1.443982e-01,2022-05-15,19:20:44,19:20:44
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408986.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.605871e+00,2022-05-15,19:23:47,19:23:49
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408987.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,1.289288e+00,2022-05-15,19:26:52,19:26:53
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1408988.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,30000,3.412955e+00,2022-05-15,19:29:57,19:30:01
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1409218.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,100000,4.729963e-01,2022-05-16,08:25:22,08:25:23
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1409219.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,100000,2.234290e-01,2022-05-16,08:29:06,08:29:07
+2,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,100000,4.718842e-01,2022-05-16,08:31:00,08:31:01
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1409221.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,100000,2.240725e-01,2022-05-16,08:34:23,08:34:24
+4,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1409222.0 failed on node n50014: Socket timed out on send/recv operation
+srun: error: Task launch for 1409222.0 failed on node n50015: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,100000,6.364045e-01,2022-05-16,08:37:38,08:37:39
+4,14
+barrier,100000,6.499279e-01,2022-05-16,08:39:10,08:39:11
+4,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,100000,6.485466e-01,2022-05-16,08:40:24,08:40:25
+4,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,100000,6.467768e-01,2022-05-16,08:41:05,08:41:06
+8,14
+barrier,100000,8.574852e-01,2022-05-16,08:41:31,08:41:32
+8,14
+barrier,100000,8.602137e-01,2022-05-16,08:42:12,08:42:13
+8,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,100000,8.550669e-01,2022-05-16,08:42:45,08:42:46
+8,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,100000,8.597768e-01,2022-05-16,08:43:18,08:43:19
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1409460.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-n50012: *** STEP 1409460.0 ON n50012 CANCELLED AT 2022-05-16T20:52:57 ***
+barrier,100000,4.721511e-01,2022-05-16,20:53:19,20:53:19
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1409461.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,100000,2.222802e-01,2022-05-16,20:56:53,20:56:53
+2,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,100000,4.725052e-01,2022-05-16,20:57:42,20:57:43
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1409464.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,10000,2.278429e-02,2022-05-16,21:02:55,21:02:56
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1409467.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,10000,5.014048e-02,2022-05-16,21:06:42,21:06:42
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1409468.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,2.225530e-02,2022-05-16,21:10:20,21:10:20
+2,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,5.140777e-02,2022-05-16,21:11:08,21:11:08
+4,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1409470.0 failed on node n50014: Socket timed out on send/recv operation
+srun: error: Task launch for 1409470.0 failed on node n50015: Socket timed out on send/recv operation
+srun: error: Task launch for 1409470.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,10000,6.981386e-02,2022-05-16,21:15:47,21:15:48
+4,14
+barrier,10000,6.996750e-02,2022-05-16,21:16:55,21:16:56
+4,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,7.021482e-02,2022-05-16,21:17:55,21:17:55
+4,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,6.975870e-02,2022-05-16,21:18:50,21:18:51
+8,14
+barrier,10000,9.319280e-02,2022-05-16,21:19:29,21:19:30
+8,14
+barrier,10000,9.300569e-02,2022-05-16,21:19:59,21:19:59
+8,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,9.325365e-02,2022-05-16,21:20:36,21:20:37
+8,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,9.285701e-02,2022-05-16,21:20:57,21:20:57
+2,14
+barrier,10000,4.999164e-02,2022-05-16,21:44:56,21:44:57
+2,14
+barrier,10000,5.016477e-02,2022-05-16,21:45:44,21:45:44
+2,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,5.010501e-02,2022-05-16,21:46:21,21:46:21
+2,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,5.026771e-02,2022-05-16,21:46:57,21:46:57
+4,14
+barrier,10000,6.994528e-02,2022-05-16,21:47:34,21:47:35
+4,14
+barrier,10000,7.034885e-02,2022-05-16,21:47:58,21:47:59
+4,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,6.978569e-02,2022-05-16,21:48:43,21:48:44
+4,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,6.973397e-02,2022-05-16,21:49:20,21:49:20
+8,14
+barrier,10000,9.302899e-02,2022-05-16,21:50:00,21:50:00
+8,14
+barrier,10000,9.317217e-02,2022-05-16,21:50:31,21:50:32
+8,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,9.291064e-02,2022-05-16,21:51:00,21:51:00
+8,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 15
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,9.286840e-02,2022-05-16,21:54:27,21:54:27
+2,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,5.013744e-02,2022-05-16,21:59:46,21:59:46
+2,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,5.043163e-02,2022-05-16,22:00:01,22:00:01
+4,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,7.001468e-02,2022-05-16,22:00:22,22:00:23
+4,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,7.027555e-02,2022-05-16,22:00:58,22:00:58
+8,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,9.281280e-02,2022-05-16,22:02:06,22:02:06
+8,14
+--------------------------------------------------------------------------
+The specified mapping policy is not recognized:
+
+  Policy: 0
+
+Please check for a typo or ensure that the option is a supported
+one.
+--------------------------------------------------------------------------
+barrier,10000,9.242725e-02,2022-05-16,22:02:44,22:02:45
+2,14
+barrier,10000,5.026084e-02,2022-05-17,15:05:18,15:05:19
+2,14
+barrier,10000,5.067025e-02,2022-05-17,15:05:51,15:05:51
+2,14
+barrier,10000,7.572917e-01,2022-05-17,15:06:20,15:06:21
+2,14
+barrier,10000,8.630646e-01,2022-05-17,15:07:21,15:07:22
+4,14
+barrier,10000,6.976626e-02,2022-05-17,15:08:01,15:08:01
+4,14
+barrier,10000,6.966291e-02,2022-05-17,15:08:21,15:08:21
+4,14
+barrier,10000,9.430622e+01,2022-05-17,15:09:06,15:10:41
+4,14
+barrier,10000,1.090699e+01,2022-05-17,15:11:19,15:11:30
+8,14
+barrier,10000,9.278714e-02,2022-05-17,15:12:22,15:12:23
+8,14
+barrier,10000,9.299059e-02,2022-05-17,15:12:59,15:13:00
+8,14
+barrier,10000,1.618231e+02,2022-05-17,15:13:22,15:16:04
+8,14
+barrier,10000,9.381542e-02,2022-05-17,15:16:54,15:16:55
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[37240,0],0] on node n50008
+  Remote daemon: [[37240,0],6] on node n50014
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+2,14
+srun: got SIGCONT
+slurmstepd-n50012: *** JOB 1410017 ON n50012 CANCELLED AT 2022-05-17T15:22:47 ***
+srun: forcing job termination
+srun: error: Task launch for 1410017.0 failed on node n50013: Job credential revoked
+srun: error: Application launch failed: Job credential revoked
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+2,14
+barrier,30600,1.466393e-01,2022-05-17,15:24:31,15:24:32
+2,14
+barrier,30600,1.466566e-01,2022-05-17,15:25:05,15:25:05
+4,14
+barrier,30600,2.026130e-01,2022-05-17,15:25:22,15:25:22
+4,14
+barrier,30600,2.034473e-01,2022-05-17,15:26:12,15:26:13
+8,14
+barrier,30600,2.688259e-01,2022-05-17,15:26:47,15:26:47
+8,14
+barrier,30600,2.692546e-01,2022-05-17,15:27:20,15:27:21
+2,14
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 15
+slots that were requested by the application:
+
+  /home/skryabinglebedu_2138/_scratch/research/mpi_collective/noise_affinity/simple_noise_x1_affinity_same_core.sh
+
+Either request fewer slots for your application, or make more slots
+available for use.
+
+A "slot" is the Open MPI term for an allocatable unit where we can
+launch a process.  The number of slots available are defined by the
+environment in which Open MPI processes are run:
+
+  1. Hostfile, via "slots=N" clauses (N defaults to number of
+     processor cores if not provided)
+  2. The --host command line parameter, via a ":N" suffix on the
+     hostname (N defaults to 1 if not provided)
+  3. Resource manager (e.g., SLURM, PBS/Torque, LSF, etc.)
+  4. If none of a hostfile, the --host command line parameter, or an
+     RM is present, Open MPI defaults to the number of processor cores
+
+In all the above cases, if you want Open MPI to default to the number
+of hardware threads instead of the number of processor cores, use the
+--use-hwthread-cpus option.
+
+Alternatively, you can use the --oversubscribe option to ignore the
+number of available slots when deciding the number of processes to
+launch.
+--------------------------------------------------------------------------
+barrier,30600,1.463474e-01,2022-05-17,15:27:53,15:27:53
+2,14
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 15
+slots that were requested by the application:
+
+  /home/skryabinglebedu_2138/_scratch/research/mpi_collective/noise_affinity/simple_noise_x1_affinity_same_core.sh
+
+Either request fewer slots for your application, or make more slots
+available for use.
+
+A "slot" is the Open MPI term for an allocatable unit where we can
+launch a process.  The number of slots available are defined by the
+environment in which Open MPI processes are run:
+
+  1. Hostfile, via "slots=N" clauses (N defaults to number of
+     processor cores if not provided)
+  2. The --host command line parameter, via a ":N" suffix on the
+     hostname (N defaults to 1 if not provided)
+  3. Resource manager (e.g., SLURM, PBS/Torque, LSF, etc.)
+  4. If none of a hostfile, the --host command line parameter, or an
+     RM is present, Open MPI defaults to the number of processor cores
+
+In all the above cases, if you want Open MPI to default to the number
+of hardware threads instead of the number of processor cores, use the
+--use-hwthread-cpus option.
+
+Alternatively, you can use the --oversubscribe option to ignore the
+number of available slots when deciding the number of processes to
+launch.
+--------------------------------------------------------------------------
+barrier,30600,1.471483e-01,2022-05-17,15:28:22,15:28:22
+4,14
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 15
+slots that were requested by the application:
+
+  /home/skryabinglebedu_2138/_scratch/research/mpi_collective/noise_affinity/simple_noise_x1_affinity_same_core.sh
+
+Either request fewer slots for your application, or make more slots
+available for use.
+
+A "slot" is the Open MPI term for an allocatable unit where we can
+launch a process.  The number of slots available are defined by the
+environment in which Open MPI processes are run:
+
+  1. Hostfile, via "slots=N" clauses (N defaults to number of
+     processor cores if not provided)
+  2. The --host command line parameter, via a ":N" suffix on the
+     hostname (N defaults to 1 if not provided)
+  3. Resource manager (e.g., SLURM, PBS/Torque, LSF, etc.)
+  4. If none of a hostfile, the --host command line parameter, or an
+     RM is present, Open MPI defaults to the number of processor cores
+
+In all the above cases, if you want Open MPI to default to the number
+of hardware threads instead of the number of processor cores, use the
+--use-hwthread-cpus option.
+
+Alternatively, you can use the --oversubscribe option to ignore the
+number of available slots when deciding the number of processes to
+launch.
+--------------------------------------------------------------------------
+barrier,30600,2.031304e-01,2022-05-17,15:30:04,15:30:05
+4,14
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 15
+slots that were requested by the application:
+
+  /home/skryabinglebedu_2138/_scratch/research/mpi_collective/noise_affinity/simple_noise_x1_affinity_same_core.sh
+
+Either request fewer slots for your application, or make more slots
+available for use.
+
+A "slot" is the Open MPI term for an allocatable unit where we can
+launch a process.  The number of slots available are defined by the
+environment in which Open MPI processes are run:
+
+  1. Hostfile, via "slots=N" clauses (N defaults to number of
+     processor cores if not provided)
+  2. The --host command line parameter, via a ":N" suffix on the
+     hostname (N defaults to 1 if not provided)
+  3. Resource manager (e.g., SLURM, PBS/Torque, LSF, etc.)
+  4. If none of a hostfile, the --host command line parameter, or an
+     RM is present, Open MPI defaults to the number of processor cores
+
+In all the above cases, if you want Open MPI to default to the number
+of hardware threads instead of the number of processor cores, use the
+--use-hwthread-cpus option.
+
+Alternatively, you can use the --oversubscribe option to ignore the
+number of available slots when deciding the number of processes to
+launch.
+--------------------------------------------------------------------------
+barrier,30600,2.028873e-01,2022-05-17,15:30:22,15:30:22
+8,14
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 15
+slots that were requested by the application:
+
+  /home/skryabinglebedu_2138/_scratch/research/mpi_collective/noise_affinity/simple_noise_x1_affinity_same_core.sh
+
+Either request fewer slots for your application, or make more slots
+available for use.
+
+A "slot" is the Open MPI term for an allocatable unit where we can
+launch a process.  The number of slots available are defined by the
+environment in which Open MPI processes are run:
+
+  1. Hostfile, via "slots=N" clauses (N defaults to number of
+     processor cores if not provided)
+  2. The --host command line parameter, via a ":N" suffix on the
+     hostname (N defaults to 1 if not provided)
+  3. Resource manager (e.g., SLURM, PBS/Torque, LSF, etc.)
+  4. If none of a hostfile, the --host command line parameter, or an
+     RM is present, Open MPI defaults to the number of processor cores
+
+In all the above cases, if you want Open MPI to default to the number
+of hardware threads instead of the number of processor cores, use the
+--use-hwthread-cpus option.
+
+Alternatively, you can use the --oversubscribe option to ignore the
+number of available slots when deciding the number of processes to
+launch.
+--------------------------------------------------------------------------
+barrier,30600,2.682351e-01,2022-05-17,15:31:23,15:31:24
+8,14
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 15
+slots that were requested by the application:
+
+  /home/skryabinglebedu_2138/_scratch/research/mpi_collective/noise_affinity/simple_noise_x1_affinity_same_core.sh
+
+Either request fewer slots for your application, or make more slots
+available for use.
+
+A "slot" is the Open MPI term for an allocatable unit where we can
+launch a process.  The number of slots available are defined by the
+environment in which Open MPI processes are run:
+
+  1. Hostfile, via "slots=N" clauses (N defaults to number of
+     processor cores if not provided)
+  2. The --host command line parameter, via a ":N" suffix on the
+     hostname (N defaults to 1 if not provided)
+  3. Resource manager (e.g., SLURM, PBS/Torque, LSF, etc.)
+  4. If none of a hostfile, the --host command line parameter, or an
+     RM is present, Open MPI defaults to the number of processor cores
+
+In all the above cases, if you want Open MPI to default to the number
+of hardware threads instead of the number of processor cores, use the
+--use-hwthread-cpus option.
+
+Alternatively, you can use the --oversubscribe option to ignore the
+number of available slots when deciding the number of processes to
+launch.
+--------------------------------------------------------------------------
+barrier,30600,2.697881e-01,2022-05-17,15:32:11,15:32:11
+2,14
+barrier,30600,9.552333e-01,2022-05-17,15:36:02,15:36:04
+2,14
+barrier,30600,5.919067e-01,2022-05-17,15:36:21,15:36:22
+4,14
+barrier,30600,1.442325e+02,2022-05-17,15:37:07,15:39:31
+4,14
+barrier,30600,1.214808e+00,2022-05-17,15:40:22,15:40:24
+8,14
+barrier,30600,4.923380e+02,2022-05-17,15:40:56,15:49:09
+4,14
+barrier,30600,2.917890e+02,2022-05-17,15:49:41,15:54:33
+4,14
+barrier,30600,1.221546e+02,2022-05-17,15:55:18,15:57:21
+8,14
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 18 to job
+slurmstepd-n50008: *** JOB 1410112 ON n50008 CANCELLED AT 2022-05-17T16:04:04 ***

@@ -1,5 +1,6 @@
 #include <mpi.h>
 #include <unistd.h>
+#include <fstream>
 
 #define SIZE 250000
 #define WORK_TIME 0.1
@@ -25,7 +26,7 @@ int main(int argc, char ** argv){
         }
         sleep(SLEEP_TIME);
         w = MPI_Wtime();
-        if((w - start_time) > BREAK_TIME) break;
+        if((w - start_t) > BREAK_TIME) break;
         iter_count++;
         sum %= SIZE;
     }

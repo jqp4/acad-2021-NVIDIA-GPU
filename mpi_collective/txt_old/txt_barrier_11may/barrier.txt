@@ -1,0 +1,331 @@
+1,1
+1,1
+barrier,77000,2.771600e-04,2022-04-30,06:56:49,06:56:49
+barrier,77000,2.609080e-04,2022-04-30,06:57:03,06:57:03
+1,1
+1,1
+barrier,77000,2.842040e-04,2022-04-30,06:57:18,06:57:18
+barrier,77000,2.850100e-04,2022-04-30,06:57:33,06:57:33
+1,3
+1,3
+barrier,77000,7.287304e-02,2022-04-30,06:57:50,06:57:50
+barrier,77000,5.796225e-02,2022-04-30,06:58:05,06:58:05
+1,3
+1,3
+barrier,77000,5.979353e-02,2022-04-30,06:58:22,06:58:22
+barrier,77000,6.825146e-02,2022-04-30,06:58:37,06:58:37
+1,7
+1,7
+barrier,77000,1.330516e-01,2022-04-30,06:59:01,06:59:01
+barrier,77000,1.159405e-01,2022-04-30,06:59:16,06:59:17
+1,7
+1,7
+barrier,77000,1.331515e-01,2022-04-30,06:59:41,06:59:41
+barrier,77000,1.173123e-01,2022-04-30,06:59:56,06:59:57
+1,14
+1,14
+barrier,77000,1.708160e-01,2022-04-30,07:00:20,07:00:20
+barrier,77000,1.860895e-01,2022-04-30,07:00:37,07:00:37
+1,14
+1,14
+barrier,77000,1.202971e+00,2022-04-30,07:00:54,07:00:55
+barrier,77000,4.227596e-01,2022-04-30,07:01:10,07:01:11
+2,1
+2,1
+barrier,77000,8.892080e-02,2022-04-30,07:01:38,07:01:38
+barrier,77000,8.818138e-02,2022-04-30,07:01:57,07:01:57
+2,1
+2,1
+barrier,77000,9.024467e-02,2022-04-30,07:02:17,07:02:17
+barrier,77000,9.112077e-02,2022-04-30,07:02:38,07:02:38
+2,3
+2,3
+barrier,77000,2.175134e-01,2022-04-30,07:03:06,07:03:06
+barrier,77000,2.182812e-01,2022-04-30,07:03:26,07:03:26
+2,3
+2,3
+barrier,77000,2.203539e-01,2022-04-30,07:03:48,07:03:49
+barrier,77000,2.212314e-01,2022-04-30,07:04:10,07:04:10
+2,7
+2,7
+barrier,77000,3.005239e-01,2022-04-30,07:04:37,07:04:37
+barrier,77000,3.029553e-01,2022-04-30,07:04:56,07:04:57
+2,7
+2,7
+barrier,77000,3.008354e-01,2022-04-30,07:05:18,07:05:18
+barrier,77000,3.018573e-01,2022-04-30,07:05:39,07:05:40
+2,14
+2,14
+barrier,77000,3.628901e-01,2022-04-30,07:06:09,07:06:10
+barrier,77000,3.638482e-01,2022-04-30,07:06:28,07:06:29
+2,14
+2,14
+barrier,77000,4.186667e+00,2022-04-30,07:06:49,07:06:54
+barrier,77000,2.402152e+00,2022-04-30,07:07:15,07:07:17
+4,1
+4,1
+barrier,77000,1.845743e-01,2022-04-30,07:11:11,07:11:11
+barrier,77000,1.820222e-01,2022-04-30,07:15:25,07:15:26
+4,1
+4,1
+barrier,77000,1.844737e-01,2022-04-30,07:19:47,07:19:47
+barrier,77000,1.858080e-01,2022-04-30,07:24:04,07:24:05
+4,3
+4,3
+barrier,77000,3.306279e-01,2022-04-30,07:28:37,07:28:37
+barrier,77000,3.291668e-01,2022-04-30,07:32:48,07:32:48
+4,1
+4,1
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1401815.0 failed on node n50015: Socket timed out on send/recv operation
+srun: error: Task launch for 1401815.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Task launch for 1401815.0 failed on node n50014: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,77000,8.868302e-02,2022-04-30,18:58:40,18:58:40
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1401816.0 failed on node n50014: Socket timed out on send/recv operation
+srun: error: Task launch for 1401816.0 failed on node n50015: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,77000,1.810852e-01,2022-04-30,19:02:47,19:02:47
+4,1
+4,1
+barrier,77000,1.809557e-01,2022-04-30,19:03:08,19:03:08
+barrier,77000,1.826266e-01,2022-04-30,19:03:30,19:03:30
+4,3
+4,3
+barrier,77000,3.286013e-01,2022-04-30,19:03:58,19:03:58
+barrier,77000,3.302233e-01,2022-04-30,19:04:19,19:04:19
+4,3
+4,3
+barrier,77000,3.323855e-01,2022-04-30,19:04:41,19:04:41
+barrier,77000,3.317414e-01,2022-04-30,19:05:03,19:05:03
+4,7
+4,7
+barrier,77000,4.077347e-01,2022-04-30,19:05:32,19:05:33
+barrier,77000,4.079242e-01,2022-04-30,19:05:53,19:05:54
+4,7
+4,7
+barrier,77000,4.087696e-01,2022-04-30,19:06:23,19:06:24
+barrier,77000,4.089372e-01,2022-04-30,19:06:46,19:06:46
+4,14
+4,14
+barrier,77000,5.051553e-01,2022-04-30,19:07:16,19:07:16
+barrier,77000,5.022331e-01,2022-04-30,19:07:37,19:07:37
+4,14
+4,14
+barrier,77000,5.997767e+02,2022-04-30,19:08:05,19:18:05
+barrier,77000,1.706603e+02,2022-04-30,19:18:25,19:21:16
+4,28
+4,28
+slurmstepd-n50012: *** JOB 1401833 ON n50012 CANCELLED AT 2022-04-30T19:36:38 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[41570,0],0] on node n50012
+  Remote daemon: [[41570,0],1] on node n50013
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+mpirun: Forwarding signal 18 to job
+mlx5: n50012.10p.parallel.ru: got completion with error:
+00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000
+00000000 00008813 08298f10 48936fd0
+[[41570,1],19][btl_openib_component.c:3674:handle_wc] from n50012 to: n50013 error polling LP CQ with status REMOTE ACCESS ERROR status number 10 for wr_id 7f9b40 opcode 1  vendor error 136 qp_idx 0
+slurmstepd-n50012: *** JOB 1401834 ON n50012 CANCELLED AT 2022-04-30T19:51:45 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[48353,0],0] on node n50012
+  Remote daemon: [[48353,0],3] on node n50015
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+mpirun: Forwarding signal 18 to job
+4,28
+4,28
+slurmstepd-n50012: *** JOB 1401839 ON n50012 CANCELLED AT 2022-04-30T20:07:18 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[46974,0],0] on node n50012
+  Remote daemon: [[46974,0],2] on node n50014
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+mpirun: Forwarding signal 18 to job
+slurmstepd-n50012: *** JOB 1401840 ON n50012 CANCELLED AT 2022-04-30T20:22:51 DUE TO TIME LIMIT ***
+mpirun: Forwarding signal 18 to job
+2,14
+2,28
+4,14
+2,14
+2,28
+4,14
+4,28
+4,28
+8,14
+8,14
+8,28
+8,28
+4,14
+8,28
+4,28
+2,14
+8,14
+2,28
+2,14
+2,28
+4,28
+4,14
+8,28
+8,14
+srun: got SIGCONT
+slurmstepd-n50012: *** JOB 1402129 ON n50012 CANCELLED AT 2022-05-01T18:23:55 ***
+srun: forcing job termination
+2,14
+2,14
+barrier,33000,1.577776e-01,2022-05-01,18:25:46,18:25:46
+barrier,33000,1.583262e-01,2022-05-01,18:26:07,18:26:07
+2,14
+2,14
+barrier,33000,1.547388e+01,2022-05-01,18:26:34,18:26:50
+barrier,33000,2.170554e+00,2022-05-01,18:27:11,18:27:14
+2,28
+2,28
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[63232,0],0] on node n50012
+  Remote daemon: [[63232,0],1] on node n50013
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+slurmstepd-n50012: *** JOB 1402139 ON n50012 CANCELLED AT 2022-05-01T18:42:23 DUE TO TIME LIMIT ***
+mpirun: Forwarding signal 18 to job
+slurmstepd-n50012: *** JOB 1402140 ON n50012 CANCELLED AT 2022-05-01T18:57:27 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[61832,0],0] on node n50012
+  Remote daemon: [[61832,0],1] on node n50013
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+mpirun: Forwarding signal 18 to job
+2,28
+2,28
+mpirun: Forwarding signal 18 to job
+slurmstepd-n50012: *** JOB 1402172 ON n50012 CANCELLED AT 2022-05-01T19:11:08 ***
+4,14
+4,14
+barrier,33000,2.183100e-01,2022-05-01,19:11:47,19:11:48
+barrier,33000,2.181840e-01,2022-05-01,19:12:07,19:12:08
+4,14
+4,14
+barrier,33000,6.217138e+01,2022-05-01,19:12:37,19:13:40
+barrier,33000,7.843697e+00,2022-05-01,19:14:02,19:14:10
+8,14
+8,14
+barrier,33000,2.872285e-01,2022-05-01,19:14:39,19:14:40
+barrier,33000,2.887048e-01,2022-05-01,19:15:02,19:15:02
+8,14
+8,14
+barrier,33000,2.295566e+02,2022-05-01,19:15:30,19:19:20
+barrier,33000,3.854797e+02,2022-05-01,19:19:43,19:26:09
+4,14
+4,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1402714.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Task launch for 1402714.0 failed on node n50014: Socket timed out on send/recv operation
+srun: error: Task launch for 1402714.0 failed on node n50015: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,55000,2.610853e-01,2022-05-02,23:38:29,23:38:30
+barrier,55000,3.601062e-01,2022-05-02,23:40:07,23:40:08
+4,14
+4,14
+barrier,55000,4.856465e+02,2022-05-02,23:40:38,23:48:44
+barrier,55000,1.011616e+02,2022-05-02,23:49:06,23:50:48
+8,14
+8,14
+barrier,55000,4.770937e-01,2022-05-02,23:56:01,23:56:02
+barrier,55000,4.769382e-01,2022-05-02,23:56:24,23:56:25
+8,14
+8,14
+barrier,55000,5.683224e+02,2022-05-02,23:56:57,00:06:26
+barrier,55000,8.188463e+01,2022-05-02,00:06:49,00:08:12
+2,14
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407360.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,110000,5.169725e-01,2022-05-11,22:26:43,22:26:44
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407361.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,110000,2.566417e-01,2022-05-11,22:30:40,22:30:40
+2,14
+2,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407362.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+barrier,110000,2.302974e+00,2022-05-11,22:34:19,22:34:21
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407363.0 failed on node n50013: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,110000,5.683176e-01,2022-05-11,22:37:59,22:38:00
+4,14
+4,14
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 1407364.0 failed on node n50014: Socket timed out on send/recv operation
+srun: error: Task launch for 1407364.0 failed on node n50015: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+barrier,110000,6.968422e-01,2022-05-11,22:40:21,22:40:22
+barrier,110000,7.100087e-01,2022-05-11,22:41:56,22:41:57
+4,14
+4,14
+barrier,110000,1.545158e+01,2022-05-11,22:42:43,22:42:59
+barrier,110000,9.948546e+01,2022-05-11,22:43:43,22:45:23
+8,14
+8,14
+barrier,110000,9.309359e-01,2022-05-11,22:46:11,22:46:12
+barrier,110000,9.313336e-01,2022-05-11,22:46:45,22:46:46
+8,14
+8,14
+barrier,110000,6.002348e+02,2022-05-11,22:47:44,22:57:44
+barrier,110000,5.999633e+02,2022-05-11,22:58:13,23:08:14

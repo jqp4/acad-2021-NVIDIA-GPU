@@ -1,73 +1,44 @@
 get_squeue_size() {
-  sleep 10
+  sleep 8
   command_data=$(squeue --user skryabinglebedu_2138)
   size=${#command_data} 
-  echo $size
+  echo "squeue strlen: $size"
 }
 
 sleep_until_queue_is_free() {
   get_squeue_size
-  while [ $size -gt 85 ]
+  while [ $size -gt 90 ]
     do
       get_squeue_size
     done
+  echo "[$(date)] >>> squeue is free"
 }
 
+# длина строки очереди
 # без задач - 84
 # 1 задача - 159
 # 2 задачи - 247
 # 3 задачи - 335
 
-
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    1 1 2 3s 77000 7000 "n50012" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 1 1 2 3s 77000 7000 "n50012" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    1 3 2 3s 77000 7000 "n50012" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 1 3 2 3s 77000 7000 "n50012" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    1 7 2 3s 77000 7000 "n50012" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 1 7 2 3s 77000 7000 "n50012" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    1 14 2 3s 77000 7000 "n50012" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 1 14 2 3s 77000 7000 "n50012" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    2 1 2 3s 77000 7000 "n50012,n50013" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 2 1 2 3s 77000 7000 "n50012,n50013" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    2 3 2 3s 77000 7000 "n50012,n50013" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 2 3 2 3s 77000 7000 "n50012,n50013" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    2 7 2 3s 77000 7000 "n50012,n50013" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 2 7 2 3s 77000 7000 "n50012,n50013" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    2 14 2 3s 77000 7000 "n50012,n50013" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 2 14 2 3s 77000 7000 "n50012,n50013" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    4 1 2 3s 77000 7000 "n50012,n50013,n50014,n50015" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 4 1 2 3s 77000 7000 "n50012,n50013,n50014,n50015" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    4 3 2 3s 77000 7000 "n50012,n50013,n50014,n50015" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 4 3 2 3s 77000 7000 "n50012,n50013,n50014,n50015" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    4 7 2 3s 77000 7000 "n50012,n50013,n50014,n50015" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 4 7 2 3s 77000 7000 "n50012,n50013,n50014,n50015" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier.sh    4 14 2 3s 77000 7000 "n50012,n50013,n50014,n50015" &
-sleep_until_queue_is_free
-nohup ./launch_script_barrier_x1.sh 4 14 2 3s 77000 7000 "n50012,n50013,n50014,n50015" &
+sh ./setup.sh
 
 
-sleep 10
-echo "!!! DONE !!!"
+sleep_until_queue_is_free
+echo ">>> nohup ./launch_script_alltoall_x1.sh 4 14 1 3s 256 30600 1800 \"n50012,n50013,n50014,n50015\" &"
+echo ">>> [iteration 0]"
+nohup ./launch_script_alltoall_x1.sh 4 14 1 3s 256 30600 1800 "n50012,n50013,n50014,n50015" &
+sleep_until_queue_is_free
+echo ">>> nohup ./launch_script_alltoall_x1.sh 4 14 1 3s 256 30600 1800 \"n50012,n50013,n50014,n50015\" &"
+echo ">>> [iteration 1]"
+nohup ./launch_script_alltoall_x1.sh 4 14 1 3s 256 30600 1800 "n50012,n50013,n50014,n50015" &
+sleep_until_queue_is_free
+echo ">>> nohup ./launch_script_alltoall_x1.sh 8 14 1 3s 256 30600 1800 \"n50012,n50013,n50014,n50015,n50008,n50009,n50010,n50011\" &"
+echo ">>> [iteration 0]"
+nohup ./launch_script_alltoall_x1.sh 8 14 1 3s 256 30600 1800 "n50012,n50013,n50014,n50015,n50008,n50009,n50010,n50011" &
+sleep_until_queue_is_free
+echo ">>> nohup ./launch_script_alltoall_x1.sh 8 14 1 3s 256 30600 1800 \"n50012,n50013,n50014,n50015,n50008,n50009,n50010,n50011\" &"
+echo ">>> [iteration 1]"
+nohup ./launch_script_alltoall_x1.sh 8 14 1 3s 256 30600 1800 "n50012,n50013,n50014,n50015,n50008,n50009,n50010,n50011" &
+
+sleep_until_queue_is_free
+echo ">>> !!! DONE !!!"
